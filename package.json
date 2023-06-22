@@ -1,0 +1,25 @@
+{
+    "dependencies": {
+    "@openintegrationhub/ferryman": "^2.2.0",
+    "utils-nxg-cg": "^1.1.19",
+    "express": "^4.18.1",
+    "firstprojecteap":"^0.0.1"
+  }, 
+  "name": "test-componenteap",
+  "version": "0.0.3",
+  "description": "Test component for test-lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "n3xgen",
+    "cloudgen"
+  ],
+  "author": "Emmanuel Arreola",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}

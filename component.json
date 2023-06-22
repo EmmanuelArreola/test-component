@@ -1,0 +1,22 @@
+{
+  "title": "Testing component",
+  "description": "Testing component",
+  "docsUrl": "",
+  "buildType": "docker",
+  "credentials": {
+  },
+   "fields": {
+    "msgToShare": {
+      "description": "Propertie for testing",
+      "defaultValue": "Text shared",
+      "label": "MsgToShare",
+      "required": true
+    }
+  },
+  "actions": {
+    "timeAndMessage": {
+      "title": "showTimeAndMessage",
+      "main": "./lib/actions/showTimeAndMessage.js"
+    }
+  }
+}
